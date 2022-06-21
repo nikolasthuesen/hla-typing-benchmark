@@ -1,0 +1,10 @@
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/IBS/HG01756/exome_alignment/HG01756.alt_bwamem_GRCh38DH.20150826.IBS.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/IBS/HG01757/exome_alignment/HG01757.alt_bwamem_GRCh38DH.20150826.IBS.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/KHV/HG01872/exome_alignment/HG01872.alt_bwamem_GRCh38DH.20150826.KHV.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/KHV/HG01873/exome_alignment/HG01873.alt_bwamem_GRCh38DH.20150826.KHV.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/ACB/HG01886/exome_alignment/HG01886.alt_bwamem_GRCh38DH.20150826.ACB.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/PEL/HG01953/exome_alignment/HG01953.alt_bwamem_GRCh38DH.20150826.PEL.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/PEL/HG01968/exome_alignment/HG01968.alt_bwamem_GRCh38DH.20150826.PEL.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/ACB/HG02014/exome_alignment/HG02014.alt_bwamem_GRCh38DH.20150826.ACB.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/KHV/HG02057/exome_alignment/HG02057.alt_bwamem_GRCh38DH.20150826.KHV.exome.cram
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/data/ASW/NA20313/exome_alignment/NA20313.alt_bwamem_GRCh38DH.20150826.ASW.exome.cram

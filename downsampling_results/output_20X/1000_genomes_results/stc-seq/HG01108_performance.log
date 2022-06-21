@@ -1,0 +1,6 @@
+Job Id: 28033455.moab
+    resources_used.cput = 00:00:35
+    resources_used.energy_used = 0
+    resources_used.mem = 53128kb
+    resources_used.vmem = 1590884kb
+    resources_used.walltime = 00:00:20

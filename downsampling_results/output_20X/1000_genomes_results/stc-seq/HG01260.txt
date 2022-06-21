@@ -1,0 +1,4 @@
+##Valid allele pair
+Locus	Genotype	Alternative_genotype	Quality
+C	C*08:33:01,C*08:33:01	null	PASS
+DPA1	DPA1*02:03,DPA1*02:03	null	PASS

@@ -1,0 +1,114 @@
+# VERSIONS:
+# HISAT2 - 2.2.1
+
+# HISAT-genotype - 1.3.2
+
+# Database - Database /home/projects/cu_10148/people/nikthu/tools/hisatgenotype/indicies/hla derived from HISATgenotype DB version: NONE
+# COMMAND:
+/home/projects/cu_10148/people/nikthu/tools/hisatgenotype/hisatgenotype --base hla --locus-list A,B,C,DRB1,DQB1 -p 10 --in-dir / --out-dir /home/projects/cu_10148/people/nikthu/output/hisatgenotype -1 /home/projects/cu_10148/people/nikthu/data/5X/HG00146.bam_reads1.fastq.gz -2 /home/projects/cu_10148/people/nikthu/data/5X/HG00146.bam_reads2.fastq.gz
+
+		hisat2 graph
+			131 reads and 67 pairs are aligned
+				1 A*01:01:01:02N (count: 40)
+				2 A*01:01:01:01 (count: 40)
+				3 A*01:01:72 (count: 40)
+				4 A*01:198 (count: 40)
+				5 A*01:215 (count: 40)
+				6 A*01:216 (count: 40)
+				7 A*01:52:02N (count: 40)
+				8 A*01:196 (count: 39)
+				9 A*01:208Q (count: 39)
+				10 A*01:02 (count: 38)
+
+
+				1 ranked A*25:01:01 (abundance: 11.56%)
+				2 ranked A*25:29 (abundance: 11.56%)
+				3 ranked A*25:38 (abundance: 11.56%)
+				4 ranked A*01:01:59 (abundance: 10.35%)
+				5 ranked A*01:142 (abundance: 10.35%)
+				6 ranked A*01:01:03 (abundance: 8.92%)
+				7 ranked A*01:01:72 (abundance: 2.98%)
+				8 ranked A*01:02 (abundance: 2.98%)
+				9 ranked A*01:09:01 (abundance: 2.98%)
+				10 ranked A*01:128 (abundance: 2.98%)
+			62 reads and 33 pairs are aligned
+				1 B*08:01:01:01 (count: 20)
+				2 B*08:01:01:02 (count: 20)
+				3 B*08:01:01:03 (count: 20)
+				4 B*08:01:32 (count: 20)
+				5 B*08:128 (count: 20)
+				6 B*08:26:03 (count: 20)
+				7 B*08:33 (count: 20)
+				8 B*08:08N (count: 19)
+				9 B*08:143 (count: 19)
+				10 B*08:144 (count: 19)
+
+
+				1 ranked B*08:59:02 (abundance: 7.07%)
+				2 ranked B*08:01:32 (abundance: 7.07%)
+				3 ranked B*08:108 (abundance: 7.07%)
+				4 ranked B*08:128 (abundance: 7.07%)
+				5 ranked B*08:26:03 (abundance: 7.07%)
+				6 ranked B*08:33 (abundance: 7.07%)
+				7 ranked B*08:56:02 (abundance: 7.07%)
+				8 ranked B*08:01:01:02 (abundance: 5.85%)
+				9 ranked B*35:01:44 (abundance: 5.07%)
+				10 ranked B*35:76 (abundance: 5.07%)
+			73 reads and 39 pairs are aligned
+				1 C*07:412 (count: 21)
+				2 C*07:01:01:05 (count: 21)
+				3 C*07:30 (count: 21)
+				4 C*07:386 (count: 21)
+				5 C*07:01:01:01 (count: 21)
+				6 C*07:01:01:02 (count: 21)
+				7 C*07:01:01:03 (count: 21)
+				8 C*07:01:01:06 (count: 21)
+				9 C*07:01:01:07 (count: 21)
+				10 C*07:01:45 (count: 21)
+
+
+				1 ranked C*07:01:20 (abundance: 19.05%)
+				2 ranked C*07:01:44 (abundance: 19.05%)
+				3 ranked C*07:235Q (abundance: 19.05%)
+				4 ranked C*04:01:74 (abundance: 2.68%)
+				5 ranked C*04:01:75 (abundance: 2.68%)
+				6 ranked C*04:01:80 (abundance: 2.68%)
+				7 ranked C*04:07 (abundance: 2.68%)
+				8 ranked C*04:164 (abundance: 2.68%)
+				9 ranked C*04:187 (abundance: 2.68%)
+				10 ranked C*04:199 (abundance: 2.68%)
+			146 reads and 73 pairs are aligned
+				1 DRB1*01:01:01 (count: 45)
+				2 DRB1*01:03 (count: 44)
+				3 DRB1*01:02:01 (count: 44)
+				4 DRB1*12:17 (count: 39)
+				5 DRB1*03:01:01:01 (count: 27)
+				6 DRB1*03:01:01:02 (count: 27)
+				7 DRB1*14:02:01 (count: 26)
+				8 DRB1*01:01:07 (count: 25)
+				9 DRB1*01:01:09 (count: 25)
+				10 DRB1*01:01:27 (count: 25)
+
+
+				1 ranked DRB1*12:17 (abundance: 70.00%)
+				2 ranked DRB1*01:01:01 (abundance: 10.00%)
+				3 ranked DRB1*01:02:01 (abundance: 10.00%)
+				4 ranked DRB1*01:03 (abundance: 10.00%)
+			57 reads and 29 pairs are aligned
+				1 DQB1*05:01:01:01 (count: 19)
+				2 DQB1*05:01:01:02 (count: 19)
+				3 DQB1*05:01:01:03 (count: 19)
+				4 DQB1*05:103 (count: 16)
+				5 DQB1*05:104 (count: 15)
+				6 DQB1*05:03:01:01 (count: 12)
+				7 DQB1*05:03:01:02 (count: 12)
+				8 DQB1*02:01:01 (count: 9)
+				9 DQB1*02:53Q (count: 9)
+				10 DQB1*02:02:01:01 (count: 7)
+
+
+				1 ranked DQB1*02:01:08 (abundance: 36.00%)
+				2 ranked DQB1*05:112 (abundance: 32.00%)
+				3 ranked DQB1*05:01:01:01 (abundance: 10.67%)
+				4 ranked DQB1*05:01:01:02 (abundance: 10.67%)
+				5 ranked DQB1*05:01:01:03 (abundance: 10.67%)

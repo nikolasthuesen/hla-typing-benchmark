@@ -1,0 +1,5 @@
+    resources_used.cput = 00:10:23
+    resources_used.energy_used = 0
+    resources_used.mem = 29688128kb
+    resources_used.vmem = 31879472kb
+    resources_used.walltime = 00:09:04

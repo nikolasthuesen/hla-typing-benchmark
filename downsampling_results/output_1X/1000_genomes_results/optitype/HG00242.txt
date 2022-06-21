@@ -1,0 +1,2 @@
+	A1	A2	B1	B2	C1	C2	Reads	Objective
+0	A*30:01	A*31:01	B*27:05	B*27:05			10	9.91

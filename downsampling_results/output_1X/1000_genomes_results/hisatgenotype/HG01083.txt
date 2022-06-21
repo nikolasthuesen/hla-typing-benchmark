@@ -1,0 +1,82 @@
+# VERSIONS:
+# HISAT2 - 2.2.1
+
+# HISAT-genotype - 1.3.2
+
+# Database - Database /home/projects/cu_10148/people/nikthu/tools/hisatgenotype/indicies/hla derived from HISATgenotype DB version: NONE
+# COMMAND:
+/home/projects/cu_10148/people/nikthu/tools/hisatgenotype/hisatgenotype --base hla --locus-list A,B,C,DRB1,DQB1 -p 10 --in-dir / --out-dir /home/projects/cu_10148/people/nikthu/output/hisatgenotype -1 /home/projects/cu_10148/people/nikthu/data/1X/HG01083.bam_reads1.fastq.gz -2 /home/projects/cu_10148/people/nikthu/data/1X/HG01083.bam_reads2.fastq.gz
+
+		hisat2 graph
+			21 reads and 11 pairs are aligned
+				1 A*02:81 (count: 11)
+				2 A*02:01:01:02L (count: 11)
+				3 A*02:11:01 (count: 11)
+				4 A*69:01:01 (count: 11)
+				5 A*02:85 (count: 11)
+				6 A*02:01:121 (count: 11)
+				7 A*02:603 (count: 11)
+				8 A*02:01:01:10 (count: 11)
+				9 A*02:29 (count: 11)
+				10 A*02:58 (count: 11)
+
+
+			8 reads and 4 pairs are aligned
+				1 B*51:01:01:02 (count: 3)
+				2 B*51:08:01 (count: 3)
+				3 B*51:187 (count: 3)
+				4 B*51:188 (count: 3)
+				5 B*51:09:01 (count: 3)
+				6 B*51:01:01:01 (count: 3)
+				7 B*51:02:01 (count: 3)
+				8 B*51:07:01 (count: 3)
+				9 B*51:193 (count: 3)
+				10 B*51:56:03 (count: 3)
+
+
+			12 reads and 6 pairs are aligned
+				1 C*15:09 (count: 5)
+				2 C*08:127N (count: 5)
+				3 C*05:08 (count: 5)
+				4 C*08:36N (count: 5)
+				5 C*08:41 (count: 5)
+				6 C*03:251 (count: 5)
+				7 C*05:01:01:01 (count: 5)
+				8 C*05:01:01:02 (count: 5)
+				9 C*05:01:01:03 (count: 5)
+				10 C*05:01:01:04 (count: 5)
+
+
+				1 ranked C*03:251 (abundance: 1.12%)
+				2 ranked C*05:01:32 (abundance: 1.12%)
+				3 ranked C*05:01:33 (abundance: 1.12%)
+				4 ranked C*05:01:34 (abundance: 1.12%)
+				5 ranked C*05:05:02 (abundance: 1.12%)
+				6 ranked C*05:07N (abundance: 1.12%)
+				7 ranked C*05:08 (abundance: 1.12%)
+				8 ranked C*05:09:01 (abundance: 1.12%)
+				9 ranked C*05:109 (abundance: 1.12%)
+				10 ranked C*05:110 (abundance: 1.12%)
+			12 reads and 6 pairs are aligned
+				1 DRB1*11:01:01:02 (count: 4)
+				2 DRB1*11:02:01 (count: 4)
+				3 DRB1*11:03:01 (count: 4)
+				4 DRB1*13:01:01:02 (count: 4)
+				5 DRB1*11:01:01:01 (count: 4)
+				6 DRB1*11:01:02 (count: 4)
+				7 DRB1*11:04:01 (count: 4)
+				8 DRB1*13:01:01:01 (count: 4)
+				9 DRB1*10:01:01:02 (count: 3)
+				10 DRB1*12:01:01:02 (count: 3)
+
+
+				1 ranked DRB1*08:01:01 (abundance: 3.75%)
+				2 ranked DRB1*08:02:01 (abundance: 3.75%)
+				3 ranked DRB1*08:03:02 (abundance: 3.75%)
+				4 ranked DRB1*08:04:01 (abundance: 3.75%)
+				5 ranked DRB1*08:06 (abundance: 3.75%)
+				6 ranked DRB1*08:07 (abundance: 3.75%)
+				7 ranked DRB1*08:09 (abundance: 3.75%)
+				8 ranked DRB1*08:10 (abundance: 3.75%)
+				9 ranked DRB1*08:11 (abundance: 3.75%)
+				10 ranked DRB1*08:13 (abundance: 3.75%)

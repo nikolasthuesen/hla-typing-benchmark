@@ -1,0 +1,1010 @@
+{
+    "1-field": {
+        "Kourami": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 6,
+                "score": 4,
+                "call_rate": 1.3043478260869565,
+                "typing_accuracy": 0.8695652173913043
+            },
+            "DQB1": {
+                "count": 2,
+                "score": 2,
+                "call_rate": 0.43478260869565216,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 8,
+                "score": 6,
+                "call_rate": 0.8695652173913043,
+                "typing_accuracy": 0.6521739130434783
+            },
+            "Total": {
+                "count": 8,
+                "score": 6,
+                "call_rate": 0.34782608695652173,
+                "typing_accuracy": 0.2608695652173913
+            }
+        },
+        "HLA-LA": {
+            "A": {
+                "count": 460,
+                "score": 318,
+                "call_rate": 100.0,
+                "typing_accuracy": 69.1304347826087
+            },
+            "B": {
+                "count": 460,
+                "score": 239,
+                "call_rate": 100.0,
+                "typing_accuracy": 51.95652173913044
+            },
+            "C": {
+                "count": 460,
+                "score": 318,
+                "call_rate": 100.0,
+                "typing_accuracy": 69.1304347826087
+            },
+            "DRB1": {
+                "count": 460,
+                "score": 243,
+                "call_rate": 100.0,
+                "typing_accuracy": 52.82608695652174
+            },
+            "DQB1": {
+                "count": 460,
+                "score": 262,
+                "call_rate": 100.0,
+                "typing_accuracy": 56.95652173913044
+            },
+            "HLA-I": {
+                "count": 1380,
+                "score": 875,
+                "call_rate": 100.0,
+                "typing_accuracy": 63.405797101449274
+            },
+            "HLA-II": {
+                "count": 920,
+                "score": 505,
+                "call_rate": 100.0,
+                "typing_accuracy": 54.891304347826086
+            },
+            "Total": {
+                "count": 2300,
+                "score": 1380,
+                "call_rate": 100.0,
+                "typing_accuracy": 60.0
+            }
+        },
+        "Optitype": {
+            "A": {
+                "count": 384,
+                "score": 232,
+                "call_rate": 83.47826086956522,
+                "typing_accuracy": 50.43478260869565
+            },
+            "B": {
+                "count": 380,
+                "score": 223,
+                "call_rate": 82.6086956521739,
+                "typing_accuracy": 48.47826086956522
+            },
+            "C": {
+                "count": 410,
+                "score": 282,
+                "call_rate": 89.1304347826087,
+                "typing_accuracy": 61.30434782608695
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 1174,
+                "score": 737,
+                "call_rate": 85.07246376811594,
+                "typing_accuracy": 53.405797101449274
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 1174,
+                "score": 737,
+                "call_rate": 51.04347826086956,
+                "typing_accuracy": 32.04347826086956
+            }
+        },
+        "Hisatgenotype": {
+            "A": {
+                "count": 438,
+                "score": 221,
+                "call_rate": 95.21739130434783,
+                "typing_accuracy": 48.04347826086956
+            },
+            "B": {
+                "count": 448,
+                "score": 202,
+                "call_rate": 97.3913043478261,
+                "typing_accuracy": 43.91304347826087
+            },
+            "C": {
+                "count": 430,
+                "score": 228,
+                "call_rate": 93.47826086956522,
+                "typing_accuracy": 49.56521739130435
+            },
+            "DRB1": {
+                "count": 454,
+                "score": 244,
+                "call_rate": 98.69565217391305,
+                "typing_accuracy": 53.04347826086956
+            },
+            "DQB1": {
+                "count": 374,
+                "score": 255,
+                "call_rate": 81.30434782608695,
+                "typing_accuracy": 55.43478260869565
+            },
+            "HLA-I": {
+                "count": 1316,
+                "score": 651,
+                "call_rate": 95.3623188405797,
+                "typing_accuracy": 47.17391304347826
+            },
+            "HLA-II": {
+                "count": 828,
+                "score": 499,
+                "call_rate": 90.0,
+                "typing_accuracy": 54.23913043478261
+            },
+            "Total": {
+                "count": 2144,
+                "score": 1150,
+                "call_rate": 93.21739130434783,
+                "typing_accuracy": 50.0
+            }
+        },
+        "STC-seq": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            }
+        }
+    },
+    "pseudosequence": {
+        "Kourami": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 6,
+                "score": 2,
+                "call_rate": 1.3043478260869565,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "DQB1": {
+                "count": 2,
+                "score": 2,
+                "call_rate": 0.43478260869565216,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.8695652173913043,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "Total": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.34782608695652173,
+                "typing_accuracy": 0.17391304347826086
+            }
+        },
+        "HLA-LA": {
+            "A": {
+                "count": 460,
+                "score": 213,
+                "call_rate": 100.0,
+                "typing_accuracy": 46.30434782608695
+            },
+            "B": {
+                "count": 460,
+                "score": 130,
+                "call_rate": 100.0,
+                "typing_accuracy": 28.26086956521739
+            },
+            "C": {
+                "count": 460,
+                "score": 190,
+                "call_rate": 100.0,
+                "typing_accuracy": 41.30434782608695
+            },
+            "DRB1": {
+                "count": 460,
+                "score": 179,
+                "call_rate": 100.0,
+                "typing_accuracy": 38.91304347826087
+            },
+            "DQB1": {
+                "count": 460,
+                "score": 214,
+                "call_rate": 100.0,
+                "typing_accuracy": 46.52173913043478
+            },
+            "HLA-I": {
+                "count": 1380,
+                "score": 533,
+                "call_rate": 100.0,
+                "typing_accuracy": 38.6231884057971
+            },
+            "HLA-II": {
+                "count": 920,
+                "score": 393,
+                "call_rate": 100.0,
+                "typing_accuracy": 42.71739130434783
+            },
+            "Total": {
+                "count": 2300,
+                "score": 926,
+                "call_rate": 100.0,
+                "typing_accuracy": 40.26086956521739
+            }
+        },
+        "Optitype": {
+            "A": {
+                "count": 384,
+                "score": 199,
+                "call_rate": 83.47826086956522,
+                "typing_accuracy": 43.26086956521739
+            },
+            "B": {
+                "count": 380,
+                "score": 173,
+                "call_rate": 82.6086956521739,
+                "typing_accuracy": 37.608695652173914
+            },
+            "C": {
+                "count": 410,
+                "score": 223,
+                "call_rate": 89.1304347826087,
+                "typing_accuracy": 48.47826086956522
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 1174,
+                "score": 595,
+                "call_rate": 85.07246376811594,
+                "typing_accuracy": 43.11594202898551
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 1174,
+                "score": 595,
+                "call_rate": 51.04347826086956,
+                "typing_accuracy": 25.869565217391305
+            }
+        },
+        "Hisatgenotype": {
+            "A": {
+                "count": 438,
+                "score": 156,
+                "call_rate": 95.21739130434783,
+                "typing_accuracy": 33.91304347826087
+            },
+            "B": {
+                "count": 448,
+                "score": 132,
+                "call_rate": 97.3913043478261,
+                "typing_accuracy": 28.695652173913043
+            },
+            "C": {
+                "count": 430,
+                "score": 162,
+                "call_rate": 93.47826086956522,
+                "typing_accuracy": 35.21739130434783
+            },
+            "DRB1": {
+                "count": 454,
+                "score": 152,
+                "call_rate": 98.69565217391305,
+                "typing_accuracy": 33.04347826086956
+            },
+            "DQB1": {
+                "count": 374,
+                "score": 202,
+                "call_rate": 81.30434782608695,
+                "typing_accuracy": 43.91304347826087
+            },
+            "HLA-I": {
+                "count": 1316,
+                "score": 450,
+                "call_rate": 95.3623188405797,
+                "typing_accuracy": 32.608695652173914
+            },
+            "HLA-II": {
+                "count": 828,
+                "score": 354,
+                "call_rate": 90.0,
+                "typing_accuracy": 38.47826086956522
+            },
+            "Total": {
+                "count": 2144,
+                "score": 804,
+                "call_rate": 93.21739130434783,
+                "typing_accuracy": 34.95652173913044
+            }
+        },
+        "STC-seq": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            }
+        }
+    },
+    "P group": {
+        "Kourami": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 6,
+                "score": 2,
+                "call_rate": 1.3043478260869565,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "DQB1": {
+                "count": 2,
+                "score": 2,
+                "call_rate": 0.43478260869565216,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.8695652173913043,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "Total": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.34782608695652173,
+                "typing_accuracy": 0.17391304347826086
+            }
+        },
+        "HLA-LA": {
+            "A": {
+                "count": 460,
+                "score": 122,
+                "call_rate": 100.0,
+                "typing_accuracy": 26.52173913043478
+            },
+            "B": {
+                "count": 460,
+                "score": 98,
+                "call_rate": 100.0,
+                "typing_accuracy": 21.304347826086957
+            },
+            "C": {
+                "count": 460,
+                "score": 121,
+                "call_rate": 100.0,
+                "typing_accuracy": 26.304347826086957
+            },
+            "DRB1": {
+                "count": 460,
+                "score": 155,
+                "call_rate": 100.0,
+                "typing_accuracy": 33.69565217391305
+            },
+            "DQB1": {
+                "count": 460,
+                "score": 198,
+                "call_rate": 100.0,
+                "typing_accuracy": 43.04347826086956
+            },
+            "HLA-I": {
+                "count": 1380,
+                "score": 341,
+                "call_rate": 100.0,
+                "typing_accuracy": 24.71014492753623
+            },
+            "HLA-II": {
+                "count": 920,
+                "score": 353,
+                "call_rate": 100.0,
+                "typing_accuracy": 38.369565217391305
+            },
+            "Total": {
+                "count": 2300,
+                "score": 694,
+                "call_rate": 100.0,
+                "typing_accuracy": 30.17391304347826
+            }
+        },
+        "Optitype": {
+            "A": {
+                "count": 384,
+                "score": 186,
+                "call_rate": 83.47826086956522,
+                "typing_accuracy": 40.43478260869565
+            },
+            "B": {
+                "count": 380,
+                "score": 169,
+                "call_rate": 82.6086956521739,
+                "typing_accuracy": 36.73913043478261
+            },
+            "C": {
+                "count": 410,
+                "score": 214,
+                "call_rate": 89.1304347826087,
+                "typing_accuracy": 46.52173913043478
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 1174,
+                "score": 569,
+                "call_rate": 85.07246376811594,
+                "typing_accuracy": 41.231884057971016
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 1174,
+                "score": 569,
+                "call_rate": 51.04347826086956,
+                "typing_accuracy": 24.73913043478261
+            }
+        },
+        "Hisatgenotype": {
+            "A": {
+                "count": 438,
+                "score": 118,
+                "call_rate": 95.21739130434783,
+                "typing_accuracy": 25.652173913043477
+            },
+            "B": {
+                "count": 448,
+                "score": 113,
+                "call_rate": 97.3913043478261,
+                "typing_accuracy": 24.565217391304348
+            },
+            "C": {
+                "count": 430,
+                "score": 136,
+                "call_rate": 93.47826086956522,
+                "typing_accuracy": 29.565217391304348
+            },
+            "DRB1": {
+                "count": 454,
+                "score": 140,
+                "call_rate": 98.69565217391305,
+                "typing_accuracy": 30.434782608695652
+            },
+            "DQB1": {
+                "count": 374,
+                "score": 177,
+                "call_rate": 81.30434782608695,
+                "typing_accuracy": 38.47826086956522
+            },
+            "HLA-I": {
+                "count": 1316,
+                "score": 367,
+                "call_rate": 95.3623188405797,
+                "typing_accuracy": 26.594202898550726
+            },
+            "HLA-II": {
+                "count": 828,
+                "score": 317,
+                "call_rate": 90.0,
+                "typing_accuracy": 34.45652173913044
+            },
+            "Total": {
+                "count": 2144,
+                "score": 684,
+                "call_rate": 93.21739130434783,
+                "typing_accuracy": 29.73913043478261
+            }
+        },
+        "STC-seq": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            }
+        }
+    },
+    "2-field": {
+        "Kourami": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 6,
+                "score": 2,
+                "call_rate": 1.3043478260869565,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "DQB1": {
+                "count": 2,
+                "score": 2,
+                "call_rate": 0.43478260869565216,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.8695652173913043,
+                "typing_accuracy": 0.43478260869565216
+            },
+            "Total": {
+                "count": 8,
+                "score": 4,
+                "call_rate": 0.34782608695652173,
+                "typing_accuracy": 0.17391304347826086
+            }
+        },
+        "HLA-LA": {
+            "A": {
+                "count": 460,
+                "score": 122,
+                "call_rate": 100.0,
+                "typing_accuracy": 26.52173913043478
+            },
+            "B": {
+                "count": 460,
+                "score": 97,
+                "call_rate": 100.0,
+                "typing_accuracy": 21.08695652173913
+            },
+            "C": {
+                "count": 460,
+                "score": 116,
+                "call_rate": 100.0,
+                "typing_accuracy": 25.217391304347824
+            },
+            "DRB1": {
+                "count": 460,
+                "score": 155,
+                "call_rate": 100.0,
+                "typing_accuracy": 33.69565217391305
+            },
+            "DQB1": {
+                "count": 460,
+                "score": 193,
+                "call_rate": 100.0,
+                "typing_accuracy": 41.95652173913044
+            },
+            "HLA-I": {
+                "count": 1380,
+                "score": 335,
+                "call_rate": 100.0,
+                "typing_accuracy": 24.27536231884058
+            },
+            "HLA-II": {
+                "count": 920,
+                "score": 348,
+                "call_rate": 100.0,
+                "typing_accuracy": 37.82608695652174
+            },
+            "Total": {
+                "count": 2300,
+                "score": 683,
+                "call_rate": 100.0,
+                "typing_accuracy": 29.695652173913043
+            }
+        },
+        "Optitype": {
+            "A": {
+                "count": 384,
+                "score": 186,
+                "call_rate": 83.47826086956522,
+                "typing_accuracy": 40.43478260869565
+            },
+            "B": {
+                "count": 380,
+                "score": 169,
+                "call_rate": 82.6086956521739,
+                "typing_accuracy": 36.73913043478261
+            },
+            "C": {
+                "count": 410,
+                "score": 208,
+                "call_rate": 89.1304347826087,
+                "typing_accuracy": 45.21739130434783
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 1174,
+                "score": 563,
+                "call_rate": 85.07246376811594,
+                "typing_accuracy": 40.79710144927536
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 1174,
+                "score": 563,
+                "call_rate": 51.04347826086956,
+                "typing_accuracy": 24.47826086956522
+            }
+        },
+        "Hisatgenotype": {
+            "A": {
+                "count": 438,
+                "score": 104,
+                "call_rate": 95.21739130434783,
+                "typing_accuracy": 22.608695652173914
+            },
+            "B": {
+                "count": 448,
+                "score": 110,
+                "call_rate": 97.3913043478261,
+                "typing_accuracy": 23.91304347826087
+            },
+            "C": {
+                "count": 430,
+                "score": 126,
+                "call_rate": 93.47826086956522,
+                "typing_accuracy": 27.391304347826086
+            },
+            "DRB1": {
+                "count": 454,
+                "score": 137,
+                "call_rate": 98.69565217391305,
+                "typing_accuracy": 29.782608695652176
+            },
+            "DQB1": {
+                "count": 374,
+                "score": 160,
+                "call_rate": 81.30434782608695,
+                "typing_accuracy": 34.78260869565217
+            },
+            "HLA-I": {
+                "count": 1316,
+                "score": 340,
+                "call_rate": 95.3623188405797,
+                "typing_accuracy": 24.63768115942029
+            },
+            "HLA-II": {
+                "count": 828,
+                "score": 297,
+                "call_rate": 90.0,
+                "typing_accuracy": 32.28260869565217
+            },
+            "Total": {
+                "count": 2144,
+                "score": 637,
+                "call_rate": 93.21739130434783,
+                "typing_accuracy": 27.695652173913043
+            }
+        },
+        "STC-seq": {
+            "A": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "B": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "C": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DRB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "DQB1": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-I": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "HLA-II": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            },
+            "Total": {
+                "count": 0,
+                "score": 0,
+                "call_rate": 0.0,
+                "typing_accuracy": 0.0
+            }
+        }
+    }
+}

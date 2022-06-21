@@ -1,0 +1,74 @@
+# VERSIONS:
+# HISAT2 - 2.2.1
+
+# HISAT-genotype - 1.3.2
+
+# Database - Database /home/projects/cu_10148/people/nikthu/tools/hisatgenotype/indicies/hla derived from HISATgenotype DB version: NONE
+# COMMAND:
+/home/projects/cu_10148/people/nikthu/tools/hisatgenotype/hisatgenotype --base hla --locus-list A,B,C,DRB1,DQB1 -p 10 --in-dir / --out-dir /home/projects/cu_10148/people/nikthu/output/hisatgenotype -1 /home/projects/cu_10148/people/nikthu/data/1X/HG00531.bam_reads1.fastq.gz -2 /home/projects/cu_10148/people/nikthu/data/1X/HG00531.bam_reads2.fastq.gz
+
+		hisat2 graph
+			32 reads and 16 pairs are aligned
+				1 A*02:77 (count: 9)
+				2 A*02:89 (count: 9)
+				3 A*02:81 (count: 9)
+				4 A*02:01:01:02L (count: 9)
+				5 A*02:11:01 (count: 9)
+				6 A*02:16 (count: 9)
+				7 A*69:01:01 (count: 9)
+				8 A*02:85 (count: 9)
+				9 A*02:01:121 (count: 9)
+				10 A*02:603 (count: 9)
+
+
+				1 ranked A*31:46 (abundance: 100.00%)
+			33 reads and 17 pairs are aligned
+				1 B*15:315 (count: 11)
+				2 B*15:377Q (count: 11)
+				3 B*15:66 (count: 11)
+				4 B*46:01:05 (count: 11)
+				5 B*15:54 (count: 11)
+				6 B*15:01:01:01 (count: 11)
+				7 B*15:01:01:02N (count: 11)
+				8 B*15:01:01:04 (count: 11)
+				9 B*15:01:01:05 (count: 11)
+				10 B*15:01:01:06 (count: 11)
+
+
+				1 ranked B*15:01:20 (abundance: 100.00%)
+			16 reads and 8 pairs are aligned
+				1 C*03:41:02 (count: 5)
+				2 C*03:02:02:01 (count: 5)
+				3 C*03:02:02:03 (count: 5)
+				4 C*03:02:15 (count: 5)
+				5 C*03:03:01:01 (count: 5)
+				6 C*03:03:01:02 (count: 5)
+				7 C*03:03:27 (count: 5)
+				8 C*03:03:28 (count: 5)
+				9 C*03:03:30 (count: 5)
+				10 C*03:03:31 (count: 5)
+
+
+			14 reads and 7 pairs are aligned
+				1 DRB1*12:01:01:02 (count: 5)
+				2 DRB1*12:01:01:03 (count: 5)
+				3 DRB1*12:01:01:01 (count: 5)
+				4 DRB1*15:01:01:03 (count: 2)
+				5 DRB1*15:02:01:02 (count: 2)
+				6 DRB1*15:02:01:01 (count: 2)
+				7 DRB1*15:01:01:01 (count: 2)
+				8 DRB1*15:01:01:02 (count: 2)
+				9 DRB1*15:03:01:01 (count: 2)
+				10 DRB1*15:03:01:02 (count: 2)
+
+
+				1 ranked DRB1*01:01:01 (abundance: 3.45%)
+				2 ranked DRB1*01:02:01 (abundance: 3.45%)
+				3 ranked DRB1*01:03 (abundance: 3.45%)
+				4 ranked DRB1*01:04 (abundance: 3.45%)
+				5 ranked DRB1*01:13 (abundance: 3.45%)
+				6 ranked DRB1*04:02:01 (abundance: 3.45%)
+				7 ranked DRB1*04:03:01 (abundance: 3.45%)
+				8 ranked DRB1*04:03:02 (abundance: 3.45%)
+				9 ranked DRB1*04:04:01 (abundance: 3.45%)
+				10 ranked DRB1*04:05:01 (abundance: 3.45%)

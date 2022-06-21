@@ -1,0 +1,113 @@
+# VERSIONS:
+# HISAT2 - 2.2.1
+
+# HISAT-genotype - 1.3.2
+
+# Database - Database /home/projects/cu_10148/people/nikthu/tools/hisatgenotype/indicies/hla derived from HISATgenotype DB version: NONE
+# COMMAND:
+/home/projects/cu_10148/people/nikthu/tools/hisatgenotype/hisatgenotype --base hla --locus-list A,B,C,DRB1,DQB1 -p 10 --in-dir / --out-dir /home/projects/cu_10148/people/nikthu/output/hisatgenotype -1 /home/projects/cu_10148/people/nikthu/data/5X/HG00312.bam_reads1.fastq.gz -2 /home/projects/cu_10148/people/nikthu/data/5X/HG00312.bam_reads2.fastq.gz
+
+		hisat2 graph
+			131 reads and 67 pairs are aligned
+				1 A*02:77 (count: 36)
+				2 A*02:01:01:02L (count: 36)
+				3 A*02:01:01:01 (count: 36)
+				4 A*02:01:01:04 (count: 36)
+				5 A*02:01:111 (count: 36)
+				6 A*02:03:01 (count: 36)
+				7 A*02:07:01 (count: 36)
+				8 A*02:251 (count: 36)
+				9 A*02:524:02 (count: 36)
+				10 A*02:56:01 (count: 36)
+
+
+				1 ranked A*02:337 (abundance: 4.90%)
+				2 ranked A*11:01:04 (abundance: 3.03%)
+				3 ranked A*11:01:18 (abundance: 3.03%)
+				4 ranked A*11:01:72 (abundance: 3.03%)
+				5 ranked A*11:02:01 (abundance: 3.03%)
+				6 ranked A*11:07 (abundance: 3.03%)
+				7 ranked A*11:12 (abundance: 3.03%)
+				8 ranked A*11:190 (abundance: 3.03%)
+				9 ranked A*11:215N (abundance: 3.03%)
+				10 ranked A*11:74 (abundance: 3.03%)
+			73 reads and 38 pairs are aligned
+				1 B*44:09 (count: 21)
+				2 B*44:02:40 (count: 21)
+				3 B*44:02:01:01 (count: 21)
+				4 B*44:02:37 (count: 21)
+				5 B*44:05:01 (count: 21)
+				6 B*44:218 (count: 21)
+				7 B*44:229 (count: 21)
+				8 B*44:23N (count: 21)
+				9 B*44:49 (count: 21)
+				10 B*27:05:02 (count: 20)
+
+
+				1 ranked B*27:47 (abundance: 56.29%)
+				2 ranked B*44:219 (abundance: 20.57%)
+				3 ranked B*27:05:03 (abundance: 17.24%)
+				4 ranked B*07:14 (abundance: 5.91%)
+			50 reads and 27 pairs are aligned
+				1 C*05:01:01:01 (count: 14)
+				2 C*05:01:01:02 (count: 14)
+				3 C*05:01:01:03 (count: 14)
+				4 C*05:01:01:04 (count: 14)
+				5 C*05:01:01:05 (count: 14)
+				6 C*05:01:32 (count: 14)
+				7 C*05:01:33 (count: 14)
+				8 C*05:01:34 (count: 14)
+				9 C*05:05:02 (count: 14)
+				10 C*05:07N (count: 14)
+
+
+				1 ranked C*12:197 (abundance: 20.00%)
+				2 ranked C*02:10:01:01 (abundance: 9.83%)
+				3 ranked C*02:10:01:03 (abundance: 9.83%)
+				4 ranked C*02:103 (abundance: 5.56%)
+				5 ranked C*02:124 (abundance: 5.56%)
+				6 ranked C*02:16:02 (abundance: 5.56%)
+				7 ranked C*02:20 (abundance: 5.56%)
+				8 ranked C*02:32 (abundance: 5.56%)
+				9 ranked C*02:53:02 (abundance: 5.56%)
+				10 ranked C*02:69 (abundance: 5.56%)
+			187 reads and 98 pairs are aligned
+				1 DRB1*07:01:01:03 (count: 49)
+				2 DRB1*07:01:01:01 (count: 49)
+				3 DRB1*07:01:01:02 (count: 49)
+				4 DRB1*12:01:01:03 (count: 38)
+				5 DRB1*12:01:01:02 (count: 36)
+				6 DRB1*12:01:01:01 (count: 36)
+				7 DRB1*09:21 (count: 32)
+				8 DRB1*09:01:02 (count: 32)
+				9 DRB1*07:01:08 (count: 31)
+				10 DRB1*07:01:19 (count: 31)
+
+
+				1 ranked DRB1*09:01:02 (abundance: 36.39%)
+				2 ranked DRB1*12:01:04 (abundance: 29.33%)
+				3 ranked DRB1*07:01:18 (abundance: 16.92%)
+				4 ranked DRB1*07:04 (abundance: 6.16%)
+				5 ranked DRB1*07:01:01:03 (abundance: 6.16%)
+				6 ranked DRB1*14:141 (abundance: 5.05%)
+			36 reads and 19 pairs are aligned
+				1 DQB1*02:02:01:01 (count: 11)
+				2 DQB1*02:02:01:02 (count: 9)
+				3 DQB1*02:62 (count: 9)
+				4 DQB1*02:01:01 (count: 8)
+				5 DQB1*02:53Q (count: 8)
+				6 DQB1*03:10:02 (count: 8)
+				7 DQB1*03:01:01:01 (count: 7)
+				8 DQB1*03:01:01:02 (count: 7)
+				9 DQB1*03:01:01:03 (count: 7)
+				10 DQB1*03:01:01:04 (count: 7)
+
+
+				1 ranked DQB1*02:12 (abundance: 16.47%)
+				2 ranked DQB1*02:62 (abundance: 16.47%)
+				3 ranked DQB1*02:02:01:01 (abundance: 16.19%)
+				4 ranked DQB1*03:01:01:02 (abundance: 10.39%)
+				5 ranked DQB1*03:01:08 (abundance: 10.12%)
+				6 ranked DQB1*03:01:22 (abundance: 10.12%)
+				7 ranked DQB1*03:10:02 (abundance: 10.12%)
+				8 ranked DQB1*03:94 (abundance: 10.12%)

@@ -1,0 +1,102 @@
+# VERSIONS:
+# HISAT2 - 2.2.1
+
+# HISAT-genotype - 1.3.2
+
+# Database - Database /home/projects/cu_10148/people/nikthu/tools/hisatgenotype/indicies/hla derived from HISATgenotype DB version: NONE
+# COMMAND:
+/home/projects/cu_10148/people/nikthu/tools/hisatgenotype/hisatgenotype --base hla --locus-list A,B,C,DRB1,DQB1 -p 10 --in-dir / --out-dir /home/projects/cu_10148/people/nikthu/output/hisatgenotype -1 /home/projects/cu_10148/people/nikthu/data/50X/NA19092.bam_reads1.fastq.gz -2 /home/projects/cu_10148/people/nikthu/data/50X/NA19092.bam_reads2.fastq.gz
+
+		hisat2 graph
+			1842 reads and 972 pairs are aligned
+				1 A*01:01:01:01 (count: 470)
+				2 A*01:208Q (count: 470)
+				3 A*01:214 (count: 470)
+				4 A*01:11N (count: 465)
+				5 A*01:196 (count: 465)
+				6 A*01:198 (count: 465)
+				7 A*01:215 (count: 465)
+				8 A*01:52:02N (count: 464)
+				9 A*01:01:72 (count: 463)
+				10 A*01:216 (count: 459)
+
+
+				1 ranked A*68:02:01:01 (abundance: 23.97%)
+				2 ranked A*36:01 (abundance: 23.19%)
+				3 ranked A*68:02:02 (abundance: 15.56%)
+				4 ranked A*36:03 (abundance: 14.40%)
+				5 ranked A*01:04N (abundance: 8.43%)
+				6 ranked A*34:01:01 (abundance: 3.74%)
+				7 ranked A*34:05 (abundance: 3.74%)
+				8 ranked A*34:14 (abundance: 3.74%)
+				9 ranked A*66:02 (abundance: 3.23%)
+			1171 reads and 608 pairs are aligned
+				1 B*42:01:01 (count: 421)
+				2 B*42:08 (count: 401)
+				3 B*42:02:01:02 (count: 394)
+				4 B*07:06:01 (count: 367)
+				5 B*07:06:02 (count: 363)
+				6 B*07:48 (count: 356)
+				7 B*07:02:01 (count: 354)
+				8 B*07:237 (count: 353)
+				9 B*07:07 (count: 351)
+				10 B*07:02:48 (count: 350)
+
+
+				1 ranked B*42:01:01 (abundance: 56.97%)
+				2 ranked B*81:01 (abundance: 43.03%)
+			845 reads and 438 pairs are aligned
+				1 C*17:01:01:04 (count: 270)
+				2 C*17:01:01:02 (count: 269)
+				3 C*17:03:01 (count: 256)
+				4 C*17:01:01:05 (count: 252)
+				5 C*17:01:01:03 (count: 251)
+				6 C*17:03:02 (count: 250)
+				7 C*17:01:13 (count: 244)
+				8 C*17:17 (count: 241)
+				9 C*17:01:12 (count: 239)
+				10 C*17:30 (count: 238)
+
+
+				1 ranked C*08:04:01 (abundance: 43.97%)
+				2 ranked C*17:01:01:04 (abundance: 37.35%)
+				3 ranked C*17:01:01:02 (abundance: 18.68%)
+			1696 reads and 885 pairs are aligned
+				1 DRB1*13:01:01:01 (count: 689)
+				2 DRB1*11:01:02 (count: 685)
+				3 DRB1*11:04:01 (count: 685)
+				4 DRB1*13:01:01:02 (count: 685)
+				5 DRB1*11:01:01:01 (count: 684)
+				6 DRB1*11:02:01 (count: 681)
+				7 DRB1*11:03:01 (count: 681)
+				8 DRB1*14:02:01 (count: 681)
+				9 DRB1*11:01:01:02 (count: 678)
+				10 DRB1*13:02:01 (count: 668)
+
+
+				1 ranked DRB1*13:01:01:02 (abundance: 22.39%)
+				2 ranked DRB1*03:02:03 (abundance: 21.60%)
+				3 ranked DRB1*03:38 (abundance: 15.39%)
+				4 ranked DRB1*13:01:01:01 (abundance: 8.83%)
+				5 ranked DRB1*03:05:03 (abundance: 8.72%)
+				6 ranked DRB1*03:74 (abundance: 7.89%)
+				7 ranked DRB1*03:42 (abundance: 5.56%)
+				8 ranked DRB1*14:110 (abundance: 4.92%)
+				9 ranked DRB1*12:06 (abundance: 4.71%)
+			649 reads and 337 pairs are aligned
+				1 DQB1*05:01:01:01 (count: 168)
+				2 DQB1*05:01:01:02 (count: 168)
+				3 DQB1*05:01:01:03 (count: 168)
+				4 DQB1*05:103 (count: 157)
+				5 DQB1*04:02:01 (count: 154)
+				6 DQB1*05:104 (count: 150)
+				7 DQB1*04:11 (count: 131)
+				8 DQB1*04:32 (count: 129)
+				9 DQB1*04:01:01 (count: 126)
+				10 DQB1*05:03:01:01 (count: 116)
+
+
+				1 ranked DQB1*04:02:01 (abundance: 48.48%)
+				2 ranked DQB1*05:01:01:01 (abundance: 17.17%)
+				3 ranked DQB1*05:01:01:02 (abundance: 17.17%)
+				4 ranked DQB1*05:01:01:03 (abundance: 17.17%)

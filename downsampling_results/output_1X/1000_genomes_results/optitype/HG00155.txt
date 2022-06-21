@@ -1,0 +1,2 @@
+	A1	A2	B1	B2	C1	C2	Reads	Objective
+0			B*14:02	B*14:02	C*06:02	C*06:02	5	4.955
