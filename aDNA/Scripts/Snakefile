@@ -1,0 +1,89 @@
+
+configfile: "config.yaml"
+
+def mem(gb=0,mb=0,kb=0,b=0):
+    return gb*10**9 + mb*10**6 + kb*10**3 + b
+
+data_dir = "/home/projects/ht3_bmem/people/nikthu/data/"
+shortened_reads_dir = "/home/projects/ht3_bmem/people/nikthu/cut_dmg/shortened_reads/"
+script_dir = "/home/projects/ht3_bmem/people/nikthu/scripts/"
+output_dir = "/home/projects/ht3_bmem/people/nikthu/cut_dmg/output/"
+
+rule all:
+    input:
+        #Appropriate folders must be made prior
+        expand(output_dir + "{read_length}_read_length/{coverage}X_coverage/{sample_id}_result.tsv", sample_id = config["sample_id"], read_length = config["read_length"], coverage = config["subsample"]),
+        expand(shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam", sample_id = config["sample_id"], read_length = config["read_length"], coverage = config["subsample"]),
+        expand(shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam", sample_id = config["sample_id"], read_length = config["read_length"], coverage = config["subsample"])
+
+rule cut_dmg_reads:
+    input:
+        fastq1 = data_dir + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2 = data_dir + "{sample_id}.bam_reads2.fastq.gz"
+    output:
+        bam = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam"
+    threads: 8
+    resources: 
+        mem = mem(gb = 30),
+        walltime = 22000
+    run:
+        shell(script_dir + "cut_dmg_reads.sh {input.fastq1} {input.fastq2} {wildcards.read_length} {output.bam}")
+
+
+rule index_bam:
+    input:
+        bam = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam"
+    threads: 20
+    resources: 
+        mem = mem(gb = 60),
+        walltime = 10000
+    output:
+        bai = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.bai"
+    run:
+        shell(script_dir + "index_bam.sh {input.bam}")
+
+
+rule measure_depth:
+    input:
+        bam = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam",
+        bai = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.bai"
+    output:
+        original_bam_average_read_length = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.original_bam_average_read_length.txt",
+        original_bam_coverage = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.original_bam_coverage.txt"
+    threads: 4
+    resources: 
+        mem = mem(gb = 20),
+        walltime = 3600
+    run:
+        shell(script_dir + "measure_depth.sh {wildcards.sample_id} {input.bam}")
+
+
+rule downsample:
+    input:
+        bam = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam",
+        original_depth = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.original_bam_coverage.txt",
+        average_read_length = shortened_reads_dir + "{read_length}_read_length/" + "full_coverage/" + "{sample_id}.bam.original_bam_average_read_length.txt"
+    output:
+        bam_downsampled = shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam",
+        fastq1_downsampled = shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2_downsampled = shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam_reads2.fastq.gz"
+    threads: 10
+    resources: 
+        mem = mem(gb = 20),
+        walltime = 7200
+    run:
+        shell(script_dir + "downsample.sh {input.bam} {output.bam_downsampled} {wildcards.read_length} {wildcards.coverage}")
+
+
+rule submit_dmg_optitype:
+    input:
+        fastq1_downsampled = shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2_downsampled = shortened_reads_dir + "{read_length}_read_length/" + "{coverage}X_coverage/" + "{sample_id}.bam_reads2.fastq.gz"
+    output:
+        optitype_result = output_dir + "{read_length}_read_length/{coverage}X_coverage/{sample_id}_result.tsv"
+    threads: 10
+    resources: 
+        mem = mem(gb = 30),
+        walltime = 10000
+    run:
+        shell(script_dir + "job_optitype_dmg_reads.sh {wildcards.sample_id} {wildcards.read_length} {wildcards.coverage}")

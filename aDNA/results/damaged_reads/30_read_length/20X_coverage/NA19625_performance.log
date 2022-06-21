@@ -1,0 +1,6 @@
+Job Id: 32323400
+    resources_used.cput = 00:02:00
+    resources_used.energy_used = 0
+    resources_used.mem = 1218784kb
+    resources_used.vmem = 6165152kb
+    resources_used.walltime = 00:00:50

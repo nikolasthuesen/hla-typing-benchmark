@@ -1,0 +1,157 @@
+configfile: "config.yaml"
+
+def mem(gb=0,mb=0,kb=0,b=0):
+    return gb*10**9 + mb*10**6 + kb*10**3 + b
+
+output_dir = "/home/projects/cu_10148/people/nikthu/output/1000_genomes_results/"
+data_dir = "/home/projects/cu_10148/people/nikthu/data/1000G_ten_benchmark/"
+script_dir = "/home/projects/cu_10148/people/nikthu/scripts/"
+
+ruleorder: download_data > index_cram > convert_data > index_bam > measure_depth
+
+
+rule all:
+    input:
+        expand(output_dir + "kourami/{sample_id}.txt", sample_id = config["sample_urlist"]),
+        expand(output_dir + "hisatgenotype/{sample_id}.txt", sample_id = config["sample_urlist"]),
+        expand(output_dir + "stc-seq/{sample_id}.txt", sample_id = config["sample_urlist"]),
+        expand(output_dir + "hla-la/{sample_id}.txt", sample_id = config["sample_urlist"]),
+        expand(output_dir + "optitype/{sample_id}.txt", sample_id = config["sample_urlist"]),
+        expand(output_dir + "depth/{sample_id}.depth.mosdepth.summary.txt", sample_id = config["sample_urlist"])
+
+rule download_data:
+    output:
+        cram = temp(data_dir + "cram_downloads/{sample_id}.cram")
+    resources:
+        walltime = 10000
+    run:
+        url = config["sample_urlist"][wildcards.sample_id]
+        shell("wget {url} -O {output.cram}")
+
+rule index_cram:
+    input:
+        cram = data_dir + "cram_downloads/{sample_id}.cram"
+    threads: 40
+    resources: 
+        mem = mem(gb = 120),
+        walltime = 10000
+    output:
+        crai = temp(data_dir + "cram_downloads/{sample_id}.cram.crai"),
+    run:
+        shell(script_dir + "index_cram.sh {input.cram}")
+
+rule convert_data:
+    input:
+        cram = data_dir + "cram_downloads/{sample_id}.cram",
+        crai = data_dir + "cram_downloads/{sample_id}.cram.crai"
+    threads: 40
+    resources: 
+        mem = mem(gb = 120),
+        walltime = 50000
+    output:
+        bam = temp(data_dir + "{sample_id}.bam"),
+        fastq1 = temp(data_dir + "{sample_id}.bam_reads1.fastq.gz"),
+        fastq2 = temp(data_dir + "{sample_id}.bam_reads2.fastq.gz"),
+        fastq0 = temp(data_dir  + "{sample_id}.bam_reads_null.fastq.gz"),
+        singletons = temp(data_dir  + "{sample_id}.bam_reads_singletons.fastq.gz")
+
+    run:
+        shell(script_dir + "cram_converter.sh {input.cram} {output.bam}")
+
+rule index_bam:
+    input:
+        bam = data_dir + "{sample_id}.bam"
+    threads: 40
+    resources: 
+        mem = mem(gb = 120),
+        walltime = 10000
+    output:
+        bai = temp(data_dir + "{sample_id}.bam.bai"),
+    run:
+        shell(script_dir + "index_bam.sh {input.bam}")
+
+rule measure_depth:
+    input:
+        cram = data_dir + "cram_downloads/{sample_id}.cram",
+        crai = data_dir + "cram_downloads/{sample_id}.cram.crai"
+    threads: 10
+    resources: 
+        mem = mem(gb = 20),
+        walltime = 10000
+    output:
+        depth = output_dir + "depth/{sample_id}.depth.mosdepth.summary.txt"
+    run:
+        shell(script_dir + "measure_depth.sh {wildcards.sample_id}")
+
+
+rule submit_kourami:
+    input:
+        bam = data_dir + "{sample_id}.bam",
+        bai = data_dir + "{sample_id}.bam.bai"
+    threads: 10
+    resources: 
+        mem = mem(gb = 50),
+        walltime = 20000
+    output:
+        kourami = output_dir + "kourami/{sample_id}.txt",
+    run:
+        shell(script_dir + "tool_jobscripts/job_kourami.sh {input.bam} {wildcards.sample_id}")
+
+rule submit_optitype:
+    input:
+        fastq1 = data_dir + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2 = data_dir + "{sample_id}.bam_reads2.fastq.gz"
+    threads: 10
+    resources: 
+        mem = mem(gb = 50),
+        walltime = 20000
+    output:
+        optitype = output_dir + "optitype/{sample_id}.txt"
+    run:
+        shell(script_dir + "tool_jobscripts/job_optitype.sh {wildcards.sample_id}")
+
+
+rule submit_hisatgenotype:
+    input:
+        fastq1 = data_dir + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2 = data_dir + "{sample_id}.bam_reads2.fastq.gz"
+    threads: 10
+    resources: 
+        mem = mem(gb = 50),
+        walltime = 20000
+    output:
+        hisatgenotype = output_dir + "hisatgenotype/{sample_id}.txt"
+    run:
+        shell(script_dir + "tool_jobscripts/job_hisatgenotype.sh {wildcards.sample_id}")
+
+
+rule submit_stc_seq:
+    input:
+        fastq1 = data_dir + "{sample_id}.bam_reads1.fastq.gz",
+        fastq2 = data_dir + "{sample_id}.bam_reads2.fastq.gz",
+        fastq0 = data_dir + "{sample_id}.bam_reads_null.fastq.gz",
+        singletons = data_dir + "{sample_id}.bam_reads_singletons.fastq.gz"
+    threads: 10
+    resources:
+        mem = mem(gb = 100),
+        walltime = 20000
+    output:
+        stc_seq = output_dir + "stc-seq/{sample_id}.txt"
+    run:
+        shell(script_dir + "tool_jobscripts/job_stc-seq.sh {wildcards.sample_id}")
+
+
+rule submit_hla_la:
+    input:
+        bam = data_dir + "{sample_id}.bam",
+        bai = data_dir + "{sample_id}.bam.bai"
+    threads: 10
+    resources: 
+        mem = mem(gb = 185),
+        walltime = 172800
+    output:
+        hla_la = output_dir + "hla-la/{sample_id}.txt"
+    run:
+        shell(script_dir + "tool_jobscripts/job_hla-la.sh {input.bam} /home/projects/cu_10148/people/nikthu/output/hla-la {wildcards.sample_id}")
+
+
