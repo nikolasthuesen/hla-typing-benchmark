@@ -1,66 +1,67 @@
-sample_id:
-  HG00096: "test"
-  HG00259: "test"
-  HG00262: "test"
-  HG00268: "test"
-  HG00419: "test"
-  HG00641: "test"
-  HG00731: "test"
-  HG00732: "test"
-  HG00734: "test"
-  HG00737: "test"
-  HG01048: "test"
-  HG01049: "test"
-  HG01051: "test"
-  HG01054: "test"
-  HG01055: "test"
-  HG01066: "test"
-  HG01094: "test"
-  HG01110: "test"
-  HG01111: "test"
-  HG01112: "test"
-  HG01168: "test"
-  HG01756: "test"
-  HG01757: "test"
-  HG01872: "test"
-  HG01873: "test"
-  HG01886: "test"
-  HG01953: "test"
-  HG01968: "test"
-  HG02014: "test"
-  HG02057: "test"
-  NA06986: "test"
-  NA11918: "test"
-  NA12275: "test"
-  NA18522: "test"
-  NA18853: "test"
-  NA18870: "test"
-  NA18912: "test"
-  NA19102: "test"
-  NA19130: "test"
-  NA19172: "test"
-  NA19238: "test"
-  NA19334: "test"
-  NA19346: "test"
-  NA19347: "test"
-  NA19471: "test"
-  NA19474: "test"
-  NA19625: "test"
-  NA19648: "test"
-  NA20313: "test"
-  NA20502: "test"
 read_length:
-  "20" : "test"
-  "25" : "test"
-  "30": "test"
-  "35": "test"
-  "45": "test"
-  "55": "test"
-  "65": "test"
+- 13
+- 20
+- 25
+- 30
+- 35
+- 45
+- 55
+- 65
+sample_id:
+- NA19130
+- HG02014
+- NA19471
+- NA06986
+- NA12275
+- HG01054
+- NA18870
+- NA19346
+- HG00731
+- NA20313
+- NA20502
+- NA19474
+- NA19102
+- HG01756
+- HG01111
+- HG01112
+- HG01886
+- NA18912
+- HG01757
+- HG00262
+- HG01953
+- NA11918
+- NA18853
+- NA19334
+- NA19347
+- NA19172
+- HG01873
+- HG01110
+- NA19648
+- HG01872
+- NA19238
+- HG01168
+- HG01048
+- HG02057
+- HG00732
+- HG00419
+- HG00259
+- NA18522
+- HG01051
+- NA19625
+- HG01055
+- HG01049
+- HG00734
+- HG01066
+- HG01968
+- HG00641
+- HG00096
+- HG01094
+- HG00737
+- HG00268
 subsample:
-  "1": "test"
-  "2": "test"
-  "5": "test"
-  "10": "test"
-  "20": "test"
-  "50": "test"
+- 1
+- 2
+- 5
+- 10
+- 20
+- 50
