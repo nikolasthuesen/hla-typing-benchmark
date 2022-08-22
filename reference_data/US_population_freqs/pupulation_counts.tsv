@@ -1,0 +1,23 @@
+#Source https://www.sciencedirect.com/science/article/pii/S0198885913001821?via%3Dihub
+Race code	Detailed race/ethnic description	Broad race group	Count	Typed C	Typed DQB1	Typed DRB3/4/5
+AAFA	African American	AFA	416581	99946	16178	134076
+AFB	African	AFA	28557	6975	1488	8516
+AINDI	South Asian Indian	API	185391	29635	8409	44484
+AISC	American Indian – South or Central Am.	NAM	5926	1255	228	894
+ALANAM	Alaska native or Aleut	NAM	1376	288	100	347
+AMIND	North American Indian	NAM	35791	7006	2398	13821
+CARB	Caribbean black	AFA	33328	10012	1856	9115
+CARHIS	Caribbean hispanic	HIS	115374	21286	4420	31097
+CARIBI	Caribbean Indian	NAM	14339	5631	937	1372
+EURCAU	European caucasian	CAU	1242890	395676	81106	212472
+FILII	Filipino	API	50614	15272	1919	14738
+HAWI	Hawaiian or other Pacific Islander	API	11499	3110	505	3355
+JAPI	Japanese	API	24582	3552	852	7886
+KORI	Korean	API	77584	11656	2107	25082
+MENAFC	Middle Eastern or N. Coast of Africa	CAU	70890	22337	4415	17609
+MSWHIS	Mexican or Chicano	HIS	261235	50875	12721	85021
+NCHI	Chinese	API	99672	16621	3753	23569
+SCAHIS	Hispanic – South or Central American	HIS	146714	31446	5764	29331
+SCAMB	Black – South or Central American	AFA	4889	927	203	1677
+SCSEAI	Southeast Asian	API	27978	5579	1321	3946
+VIET	Vietnamese	API	43540	10511	1032	2446
